@@ -1,0 +1,24 @@
+h1 {
+	text-align: center;
+	color: blue;
+}
+.calcu {
+	width: 30%;
+	margin-left: 36%;
+	padding: 1%;
+}
+.but {
+	width: 20%;
+	height: 50px;
+	margin: 1%;
+	border-radius: 8px;
+	background-color: pink;
+
+}
+.buto {
+	width: 42%;
+	height: 50px;
+	margin: 1%;
+	border-radius: 8px;
+	background-color: pink;
+}

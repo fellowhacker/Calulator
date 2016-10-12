@@ -1,0 +1,41 @@
+<!DOCTYPEhtml>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		CALCULATOR
+	</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<script type="text/javascript" src = "calculator.js"></script>
+</head>
+<body>
+	<h1> MY CALCULATOR</h1>
+	<div class="calcu">
+	<div class="c">
+
+		<form name="calculator">
+			<input name = "display" style="width:90%;height:50px;border-radius:10px;"><br>
+			<input type = "button" class = "but" value = "7" onclick="valu(7);">
+			<input type = "button" class = "but" value = "8" onclick="document.calculator.display.value += '8'">
+			<input type = "button" class = "but" value = "9" onclick="document.calculator.display.value += '9'">
+			<input type = "button" class = "but" value = "+" onclick="plus();"><br>
+			<input type = "button" class = "but" value = "4" onclick="document.calculator.display.value += '4'">
+			<input type = "button" class = "but" value = "5" onclick="document.calculator.display.value += '5'">
+			<input type = "button" class = "but" value = "6" onclick="document.calculator.display.value += '6'">
+			<input type = "button" class = "but" value = "-" onclick="minus();"><br>
+			<input type = "button" class = "but" value = "1" onclick="document.calculator.display.value += '1'">
+			<input type = "button" class = "but" value = "2" onclick="document.calculator.display.value += '2'">
+			<input type = "button" class = "but" value = "3" onclick="document.calculator.display.value += '3'">
+			<input type = "button" class = "but" value = "*" onclick="mul();"><br>
+			<input type = "button" class = "but" value = "0" onclick="document.calculator.display.value += '0'">
+			<input type = "button" class = "but" value = "%" onclick="mod();">
+			<input type = "button" class = "but" value = "." onclick="dot();">
+			<input type = "button" class = "but" value = "/" onclick="div();"><br>
+			<input type = "button" class = "buto" value = "=" onclick=" equal();">
+			<input type = "button" class = "buto" value = "C" onclick="clear();"><br>
+		</form>
+	</div>
+	</div>
+	<h1 style="color:blue;"> NOTE:- To clear data refresh the page </h1>
+</body>
+</html>
